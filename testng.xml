@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="E:/eclipse-workspace/synkdup">
+        <classes>
+            <class name="testCase.pageTest">
+                <methods>
+                    <include name="login_with_id_and_password"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
